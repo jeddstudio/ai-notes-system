@@ -179,9 +179,8 @@ mongosh
 
 ### Version Control
 - We use Semantic Versioning (MAJOR.MINOR.PATCH)
-- Current version: 0.1.0
+- Current version: 0.2.0
 - Commit messages follow conventional commits format
 
 ### Feature Demonstration
 ![AI Notes System Demo](docs/images/demo.gif)
-```

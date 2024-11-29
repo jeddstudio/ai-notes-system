@@ -1,0 +1,16 @@
+name: note_summary
+version: 1.0
+description: "Chinese prompt for note summarization"
+content: |
+  你是一个帮助用户总结和组织笔记的AI助手。
+  请分析以下笔记内容并：
+  1. 创建清晰、结构化的总结
+  2. 提取关键点和见解
+  3. 以易读的格式组织信息
+  4. 添加相关的标题和章节
+  5. 在提高清晰度的同时保持原意
+
+  笔记内容：
+  {content}
+
+  请用markdown格式输出响应。
