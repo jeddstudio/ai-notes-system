@@ -1,0 +1,39 @@
+.
+├── doc
+│   ├── images
+│   │   ├── ai_note.gif
+│   │   └── markdown_note.gif
+│   └── develop_note.md
+├── src
+│   ├── ai
+│   │   └── prompts
+│   │       ├── templates
+│   │       │   ├── note_summary_en.yaml
+│   │       │   └── note_summary_zh.yaml
+│   │       └── base_prompts.py
+│   ├── components
+│   │   ├── __init__.py
+│   │   ├── note_processor.py
+│   │   └── ui_components.py
+│   ├── database
+│   │   ├── __init__.py
+│   │   └── mongodb.py
+│   ├── utils
+│   │   ├── __init__.py
+│   │   ├── cache_manager.py
+│   │   ├── helpers.py
+│   │   ├── logger.py
+│   │   └── rate_limiter.py
+│   ├── config.py
+│   └── main.py
+├── tests
+│   ├── __init__.py
+│   ├── test_note_processor.py
+│   └── testing.py
+├── LICENSE
+├── README.md
+├── project_structure.txt
+├── pytest.ini
+└── requirements.txt
+
+11 directories, 26 files
