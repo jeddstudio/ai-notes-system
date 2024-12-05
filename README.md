@@ -3,7 +3,7 @@
 An AI-powered note-taking system built with MongoDB and Streamlit. Features clever note structuring and AI summaries. Demonstrates full-stack development skills and AI integration for Python engineering portfolio.
 
 > [!NOTE]
-> [Development Notes](./doc/develop_note.md) 
+> [Development Notes](doc/develop_note.md) 
 > - Detailed development process, technical decisions, and learning journey
 
 ## Features
