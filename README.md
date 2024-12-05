@@ -1,15 +1,13 @@
-
 # ai-notes-system
----
+
 An AI-powered note-taking system built with MongoDB and Streamlit. Features clever note structuring and AI summaries. Demonstrates full-stack development skills and AI integration for Python engineering portfolio.
 
 > [!NOTE]
 > [Development Notes](./docs/develop_note.md) 
 > - Detailed development process, technical decisions, and learning journey
 
-
 ## Features
----
+
 - Create and save notes with title and content
 - Automatic timestamp for each note
 - View all notes in an expandable list
@@ -17,20 +15,17 @@ An AI-powered note-taking system built with MongoDB and Streamlit. Features clev
 - Delete unwanted notes
 - MongoDB integration for persistent storage
 - Streamlit-based user interface
----
 
-### Feature Demonstration
-#### AI Summaries
-![AI Notes System Demo](docs/images/ai_note.gif)
+## Feature Demonstration
 
-#### Markdown Note
-![AI Notes System Demo](docs/images/markdown.gif)
+### AI Summaries
+![AI Notes System Demo](doc/images/ai_note.gif)
 
----
-
+### Markdown Note
+![AI Notes System Demo](doc/images/markdown_note.gif)
 
 ## Installation Instructions
----
+
 1. Clone the repository:
    ```sh
    git clone https://github.com/yourusername/ai-notes-system.git
@@ -55,12 +50,9 @@ An AI-powered note-taking system built with MongoDB and Streamlit. Features clev
      MONGODB_URL=your_mongodb_url
      OPENAI_API_KEY=your_openai_key
      ```
-     
----
-
 
 ## Usage Guide
----
+
 1. Start MongoDB:
    ```sh
    # If installed via Homebrew
@@ -88,5 +80,3 @@ An AI-powered note-taking system built with MongoDB and Streamlit. Features clev
    ```sh
    pytest tests/
    ```
-
----
